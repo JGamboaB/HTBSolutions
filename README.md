@@ -45,7 +45,7 @@ Using dnSpy (x32). Add breakpoints at each if, changing the variables to true an
 
 ## LoveTok
 **Eval Injection.**
-#### ${print(`cd ..; cat flag*`)}
+#### ${print(\`cd ..; cat flag*\`)}
 
 ## PetPet RCBee
 **RCE - Remote Code Execution.**
