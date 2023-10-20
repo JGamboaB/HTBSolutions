@@ -11,7 +11,7 @@ Transform hex into ascii: reversarAscii.py
 #### Padding (188) + FlagFunction + Padding (4) + Argument1 + Argument2 
 
 File:
-```
+```python
 from pwn import *
 
 flag = 0x080491e2
@@ -51,7 +51,7 @@ Using dnSpy (x32). Add breakpoints at each if, changing the variables to true an
 **RCE - Remote Code Execution.**
 
 Create a file without extension:
-```
+```php
 %!PS-Adobe-3.0 EPSF-3.0
 %%BoundingBox: -0 -0 100 100
 
@@ -71,7 +71,7 @@ HOST:PORT/static/petpets/flag.txt
 **Server-Side Template Injection in GO.**
 
 Create a GitHub Page with the file index.html containg:
-```
+```html
 <html>
 <head>
     <title>Document</title>
